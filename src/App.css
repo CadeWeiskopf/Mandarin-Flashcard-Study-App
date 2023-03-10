@@ -26,7 +26,13 @@
 .flashcarddeck {
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+
+.flashcard {
+  background-color: #fff;
+  color: #000;
 }

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Flashcard } from "../interfaces/Flashcard";
 
 export default function FlashcardCard(props: {
@@ -9,16 +10,30 @@ export default function FlashcardCard(props: {
     flashcards: Flashcard[]
   ) => void;
 }) {
+  const [cardSide, setCardSide] = useState("front");
+  const cardSideMap = (flashcard: Flashcard) => {
+    if (cardSide === "front") {
+      return (
+        <>
+          <h2>{flashcard.hanzi}</h2>
+          <h3>{flashcard.pinyin}</h3>
+        </>
+      );
+    }
+  };
   return (
     <>
-      <div>{JSON.stringify(props.flashcards[props.currentCard])}</div>
-      <button
-        onClick={() => {
-          props.setNewRandomCard(props.setCurrentCard, props.flashcards);
-        }}
-      >
-        new card
-      </button>
+      <div className="flashcard">
+        <div>{cardSideMap(props.flashcards[props.currentCard])}</div>
+        <button>flip</button>
+        <button
+          onClick={() => {
+            props.setNewRandomCard(props.setCurrentCard, props.flashcards);
+          }}
+        >
+          new
+        </button>
+      </div>
     </>
   );
 }
