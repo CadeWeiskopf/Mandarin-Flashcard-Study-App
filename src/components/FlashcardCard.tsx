@@ -20,6 +20,11 @@ export default function FlashcardCard(props: {
         </>
       );
     } else if (cardSide === 1) {
+      return (
+        <>
+          <h2>{flashcard.yingyu}</h2>
+        </>
+      );
     } else {
       throw Error(`cardSide not set properly`);
     }
@@ -30,7 +35,7 @@ export default function FlashcardCard(props: {
         <div>{cardSideMap(props.flashcards[props.currentCard])}</div>
         <button
           onClick={() => {
-            setCardSide(cardSide ? 1 : 0);
+            setCardSide(cardSide ? 0 : 1);
           }}
         >
           flip
@@ -38,6 +43,7 @@ export default function FlashcardCard(props: {
         <button
           onClick={() => {
             props.setNewRandomCard(props.setCurrentCard, props.flashcards);
+            setCardSide(0);
           }}
         >
           new
