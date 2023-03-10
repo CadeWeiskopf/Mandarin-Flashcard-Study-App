@@ -38,5 +38,5 @@
 }
 
 .hanzi {
-  font-size: calc(10px + 6vmin);
+  font-size: calc(2rem + 2vw);
 }
