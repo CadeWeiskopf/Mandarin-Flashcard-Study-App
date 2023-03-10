@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Flashcard } from "../interfaces/Flashcard";
 import FlashcardCard from "./FlashcardCard";
 
@@ -11,6 +11,10 @@ const setNewRandomCard = (
 
 export default function FlashcardDeck(props: { flashcards: Flashcard[] }) {
   const [currentCard, setCurrentCard] = useState(-1);
+  const [cardOrder, setCardOrder] = useState([0]);
+  useEffect(() => {
+    const cardIds = props.flashcards.map((flashcard) => flashcard.id);
+  }, []);
   return (
     <>
       <div className="flashcarddeck">
