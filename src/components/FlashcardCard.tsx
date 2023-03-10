@@ -2,19 +2,20 @@ import { useState } from "react";
 import { Flashcard } from "../interfaces/Flashcard";
 
 export default function FlashcardCard(props: {
+  cardSide: number;
+  setCardSide: React.Dispatch<React.SetStateAction<number>>;
   currentCard: number;
   flashcards: Flashcard[];
 }) {
-  const [cardSide, setCardSide] = useState(0);
   const cardSideMap = (flashcard: Flashcard) => {
-    if (cardSide === 0) {
+    if (props.cardSide === 0) {
       return (
         <>
           <h2 className="hanzi">{flashcard.hanzi}</h2>
           <h3>{flashcard.pinyin}</h3>
         </>
       );
-    } else if (cardSide === 1) {
+    } else if (props.cardSide === 1) {
       return (
         <>
           <h2>{flashcard.yingyu}</h2>
@@ -30,7 +31,7 @@ export default function FlashcardCard(props: {
         <div>{cardSideMap(props.flashcards[props.currentCard])}</div>
         <button
           onClick={() => {
-            setCardSide(cardSide ? 0 : 1);
+            props.setCardSide(props.cardSide ? 0 : 1);
           }}
         >
           flip
