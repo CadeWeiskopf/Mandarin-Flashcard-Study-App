@@ -4,11 +4,6 @@ import { Flashcard } from "../interfaces/Flashcard";
 export default function FlashcardCard(props: {
   currentCard: number;
   flashcards: Flashcard[];
-  setCurrentCard: React.Dispatch<React.SetStateAction<number>>;
-  setNewRandomCard: (
-    setCurrentCard: React.Dispatch<React.SetStateAction<number>>,
-    flashcards: Flashcard[]
-  ) => void;
 }) {
   const [cardSide, setCardSide] = useState(0);
   const cardSideMap = (flashcard: Flashcard) => {
@@ -39,14 +34,6 @@ export default function FlashcardCard(props: {
           }}
         >
           flip
-        </button>
-        <button
-          onClick={() => {
-            props.setNewRandomCard(props.setCurrentCard, props.flashcards);
-            setCardSide(0);
-          }}
-        >
-          new
         </button>
       </div>
     </>
