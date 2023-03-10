@@ -22,3 +22,11 @@
   display: flex;
   justify-content: center;
 }
+
+.flashcarddeck {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
