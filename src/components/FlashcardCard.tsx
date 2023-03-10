@@ -15,7 +15,7 @@ export default function FlashcardCard(props: {
     if (cardSide === 0) {
       return (
         <>
-          <h2>{flashcard.hanzi}</h2>
+          <h2 className="hanzi">{flashcard.hanzi}</h2>
           <h3>{flashcard.pinyin}</h3>
         </>
       );

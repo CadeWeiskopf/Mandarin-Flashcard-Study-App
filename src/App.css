@@ -36,3 +36,7 @@
   background-color: #fff;
   color: #000;
 }
+
+.hanzi {
+  font-size: calc(10px + 6vmin);
+}
