@@ -1,0 +1,362 @@
+[
+  { "id": 0, "hanzi": "爱", "pinyin": "ài", "yingyu": "love" },
+  { "id": 1, "hanzi": "八", "pinyin": "bā", "yingyu": "eight" },
+  { "id": 2, "hanzi": "爸爸", "pinyin": "bàba", "yingyu": "Dad" },
+  { "id": 3, "hanzi": "杯子", "pinyin": "bēizi", "yingyu": "cup; glass" },
+  { "id": 4, "hanzi": "北京", "pinyin": "Běijīng", "yingyu": "Beijing" },
+  {
+    "id": 5,
+    "hanzi": "本",
+    "pinyin": "běn",
+    "yingyu": "measure word for books"
+  },
+  {
+    "id": 6,
+    "hanzi": "不客气",
+    "pinyin": "bú kèqi",
+    "yingyu": "you're welcome; don't be polite"
+  },
+  { "id": 7, "hanzi": "不", "pinyin": "bù", "yingyu": "no; not" },
+  {
+    "id": 8,
+    "hanzi": "菜",
+    "pinyin": "cài",
+    "yingyu": "dish (type of food); vegetables"
+  },
+  { "id": 9, "hanzi": "茶", "pinyin": "chá", "yingyu": "tea" },
+  { "id": 10, "hanzi": "吃", "pinyin": "chī", "yingyu": "eat" },
+  { "id": 11, "hanzi": "出租车", "pinyin": "chūzūchē", "yingyu": "taxi; cab" },
+  {
+    "id": 12,
+    "hanzi": "打电话",
+    "pinyin": "dǎ diànhuà",
+    "yingyu": "make a phone call"
+  },
+  { "id": 13, "hanzi": "大", "pinyin": "dà", "yingyu": "big; large" },
+  { "id": 14, "hanzi": "的", "pinyin": "de", "yingyu": "indicates possession" },
+  {
+    "id": 15,
+    "hanzi": "点",
+    "pinyin": "diǎn",
+    "yingyu": "a dot; a little; o'clock"
+  },
+  { "id": 16, "hanzi": "电脑", "pinyin": "diànnǎo", "yingyu": "computer" },
+  {
+    "id": 17,
+    "hanzi": "电视",
+    "pinyin": "diànshì",
+    "yingyu": "television; TV"
+  },
+  { "id": 18, "hanzi": "电影", "pinyin": "diànyǐng", "yingyu": "movie; film" },
+  { "id": 19, "hanzi": "东西", "pinyin": "dōngxi", "yingyu": "things; stuff" },
+  { "id": 20, "hanzi": "都", "pinyin": "dōu", "yingyu": "all; both" },
+  { "id": 21, "hanzi": "读", "pinyin": "dú", "yingyu": "to read; to study" },
+  { "id": 22, "hanzi": "对不起", "pinyin": "duìbuqǐ", "yingyu": "sorry" },
+  { "id": 23, "hanzi": "多", "pinyin": "duō", "yingyu": "many" },
+  {
+    "id": 24,
+    "hanzi": "多少",
+    "pinyin": "duōshao",
+    "yingyu": "how much?; how many?"
+  },
+  { "id": 25, "hanzi": "儿子", "pinyin": "érzi", "yingyu": "son" },
+  { "id": 26, "hanzi": "二", "pinyin": "èr", "yingyu": "two" },
+  {
+    "id": 27,
+    "hanzi": "饭店",
+    "pinyin": "fàndiàn",
+    "yingyu": "restaurant; hotel"
+  },
+  { "id": 28, "hanzi": "飞机", "pinyin": "fēijī", "yingyu": "airplane" },
+  {
+    "id": 29,
+    "hanzi": "分钟",
+    "pinyin": "fēnzhōng",
+    "yingyu": "minute; (measure word for time)"
+  },
+  { "id": 30, "hanzi": "高兴", "pinyin": "gāoxìng", "yingyu": "happy; glad" },
+  { "id": 31, "hanzi": "个", "pinyin": "ge", "yingyu": "general measure word" },
+  { "id": 32, "hanzi": "工作", "pinyin": "gōngzuò", "yingyu": "work; a job" },
+  { "id": 33, "hanzi": "狗", "pinyin": "gǒu", "yingyu": "dog" },
+  {
+    "id": 34,
+    "hanzi": "汉语",
+    "pinyin": "Hànyǔ",
+    "yingyu": "Chinese language"
+  },
+  { "id": 35, "hanzi": "好", "pinyin": "hǎo", "yingyu": "good" },
+  {
+    "id": 36,
+    "hanzi": "号",
+    "pinyin": "hào",
+    "yingyu": "number; day of a month"
+  },
+  { "id": 37, "hanzi": "喝", "pinyin": "hē", "yingyu": "to drink" },
+  { "id": 38, "hanzi": "和", "pinyin": "hé", "yingyu": "and; with" },
+  { "id": 39, "hanzi": "很", "pinyin": "hěn", "yingyu": "very; quite" },
+  { "id": 40, "hanzi": "后面", "pinyin": "hòumian", "yingyu": "back; behind" },
+  {
+    "id": 41,
+    "hanzi": "回",
+    "pinyin": "huí",
+    "yingyu": "to return; to reply; to go back"
+  },
+  { "id": 42, "hanzi": "会", "pinyin": "huì", "yingyu": "know how to" },
+  {
+    "id": 43,
+    "hanzi": "几",
+    "pinyin": "jǐ",
+    "yingyu": "how many; several; a few"
+  },
+  { "id": 44, "hanzi": "家", "pinyin": "jiā", "yingyu": "family; home" },
+  { "id": 45, "hanzi": "叫", "pinyin": "jiào", "yingyu": "to be called" },
+  { "id": 46, "hanzi": "今天", "pinyin": "jīntiān", "yingyu": "today" },
+  { "id": 47, "hanzi": "九", "pinyin": "jiǔ", "yingyu": "nine" },
+  {
+    "id": 48,
+    "hanzi": "开",
+    "pinyin": "kāi",
+    "yingyu": "to open; to start; to operate (a vehicle)"
+  },
+  {
+    "id": 49,
+    "hanzi": "看",
+    "pinyin": "kàn",
+    "yingyu": "see; look at; to watch"
+  },
+  {
+    "id": 50,
+    "hanzi": "看见",
+    "pinyin": "kànjiàn",
+    "yingyu": "see; catch sight of"
+  },
+  {
+    "id": 51,
+    "hanzi": "块",
+    "pinyin": "kuài",
+    "yingyu": "lump; piece; sum of money"
+  },
+  {
+    "id": 52,
+    "hanzi": "来",
+    "pinyin": "lái",
+    "yingyu": "come; arrive; ever since; next"
+  },
+  { "id": 53, "hanzi": "老师", "pinyin": "lǎoshī", "yingyu": "teacher" },
+  {
+    "id": 54,
+    "hanzi": "了",
+    "pinyin": "le",
+    "yingyu": "indicates a completed or finished action"
+  },
+  { "id": 55, "hanzi": "冷", "pinyin": "lěng", "yingyu": "cold" },
+  {
+    "id": 56,
+    "hanzi": "里",
+    "pinyin": "lǐ",
+    "yingyu": "inside; Chinese mile (~.5 km)"
+  },
+  { "id": 57, "hanzi": "六", "pinyin": "liù", "yingyu": "six" },
+  { "id": 58, "hanzi": "妈妈", "pinyin": "māma", "yingyu": "mom; mum" },
+  {
+    "id": 59,
+    "hanzi": "吗",
+    "pinyin": "ma",
+    "yingyu": "indicates a yes/no question (added to a statement)"
+  },
+  { "id": 60, "hanzi": "买", "pinyin": "mǎi", "yingyu": "to buy" },
+  { "id": 61, "hanzi": "猫", "pinyin": "māo", "yingyu": "cat" },
+  {
+    "id": 62,
+    "hanzi": "没关系",
+    "pinyin": "méi guānxi",
+    "yingyu": "it doesn't matter; never mind"
+  },
+  {
+    "id": 63,
+    "hanzi": "没有",
+    "pinyin": "méiyǒu",
+    "yingyu": "not have; there is not"
+  },
+  { "id": 64, "hanzi": "米饭", "pinyin": "mǐfàn", "yingyu": "(cooked) rice" },
+  { "id": 65, "hanzi": "明天", "pinyin": "míngtiān", "yingyu": "tomorrow" },
+  { "id": 66, "hanzi": "名字", "pinyin": "míngzi", "yingyu": "name" },
+  { "id": 67, "hanzi": "哪", "pinyin": "nǎa", "yingyu": "which; how" },
+  {
+    "id": 68,
+    "hanzi": "哪儿",
+    "pinyin": "nǎr",
+    "yingyu": "where? (Beijing accent)"
+  },
+  { "id": 69, "hanzi": "那", "pinyin": "nà", "yingyu": "that; then" },
+  {
+    "id": 70,
+    "hanzi": "呢",
+    "pinyin": "ne",
+    "yingyu": "indicates a question; how about...?;"
+  },
+  { "id": 71, "hanzi": "能", "pinyin": "néng", "yingyu": "can; be able" },
+  { "id": 72, "hanzi": "你", "pinyin": "nǐ", "yingyu": "you (singular)" },
+  { "id": 73, "hanzi": "年", "pinyin": "nián", "yingyu": "year" },
+  { "id": 74, "hanzi": "女儿", "pinyin": "nǚ'ér", "yingyu": "daughter" },
+  { "id": 75, "hanzi": "朋友", "pinyin": "péngyou", "yingyu": "friend" },
+  {
+    "id": 76,
+    "hanzi": "漂亮",
+    "pinyin": "piàoliang",
+    "yingyu": "pretty; beautiful"
+  },
+  { "id": 77, "hanzi": "苹果", "pinyin": "píngguǒ", "yingyu": "apple" },
+  { "id": 78, "hanzi": "七", "pinyin": "qī", "yingyu": "seven" },
+  { "id": 79, "hanzi": "钱", "pinyin": "qián", "yingyu": "money; coin" },
+  { "id": 80, "hanzi": "前面", "pinyin": "qiánmiàn", "yingyu": "in front" },
+  {
+    "id": 81,
+    "hanzi": "请",
+    "pinyin": "qǐng",
+    "yingyu": "please; invite; to treat someone to something"
+  },
+  { "id": 82, "hanzi": "去", "pinyin": "qù", "yingyu": "go; to leave" },
+  { "id": 83, "hanzi": "热", "pinyin": "rè", "yingyu": "heat; hot" },
+  { "id": 84, "hanzi": "人", "pinyin": "rén", "yingyu": "person; man; people" },
+  {
+    "id": 85,
+    "hanzi": "认识",
+    "pinyin": "rènshi",
+    "yingyu": "recognize; know (a person)"
+  },
+  { "id": 86, "hanzi": "三", "pinyin": "sān", "yingyu": "three" },
+  { "id": 87, "hanzi": "商店", "pinyin": "shāngdiàn", "yingyu": "shop; store" },
+  { "id": 88, "hanzi": "上", "pinyin": "shàng", "yingyu": "above; up" },
+  {
+    "id": 89,
+    "hanzi": "上午",
+    "pinyin": "shàngwǔ",
+    "yingyu": "late morning (before noon)"
+  },
+  { "id": 90, "hanzi": "少", "pinyin": "shǎo", "yingyu": "few; little" },
+  { "id": 91, "hanzi": "谁", "pinyin": "shéi", "yingyu": "who" },
+  {
+    "id": 92,
+    "hanzi": "什么",
+    "pinyin": "shénme",
+    "yingyu": "what? (replaces the noun to turn a statement into a question)"
+  },
+  { "id": 93, "hanzi": "十", "pinyin": "shí", "yingyu": "ten" },
+  { "id": 94, "hanzi": "时候", "pinyin": "shíhou", "yingyu": "time" },
+  { "id": 95, "hanzi": "是", "pinyin": "shì", "yingyu": "be; is; are; am" },
+  { "id": 96, "hanzi": "书", "pinyin": "shū", "yingyu": "book; letter" },
+  { "id": 97, "hanzi": "水", "pinyin": "shuǐ", "yingyu": "water" },
+  { "id": 98, "hanzi": "水果", "pinyin": "shuǐguǒ", "yingyu": "fruit" },
+  {
+    "id": 99,
+    "hanzi": "睡觉",
+    "pinyin": "shuì jiào",
+    "yingyu": "to sleep; go to bed"
+  },
+  { "id": 100, "hanzi": "说", "pinyin": "shuō", "yingyu": "speak" },
+  { "id": 101, "hanzi": "四", "pinyin": "sì", "yingyu": "four" },
+  { "id": 102, "hanzi": "岁", "pinyin": "suì", "yingyu": "years old; age" },
+  { "id": 103, "hanzi": "他", "pinyin": "tā", "yingyu": "he; him" },
+  { "id": 104, "hanzi": "她", "pinyin": "tā", "yingyu": "she" },
+  { "id": 105, "hanzi": "太", "pinyin": "tài", "yingyu": "too (much)" },
+  { "id": 106, "hanzi": "天气", "pinyin": "tiānqì", "yingyu": "weather" },
+  { "id": 107, "hanzi": "听", "pinyin": "tīng", "yingyu": "listen; hear" },
+  {
+    "id": 108,
+    "hanzi": "同学",
+    "pinyin": "tóngxué",
+    "yingyu": "fellow student; schoolmate"
+  },
+  {
+    "id": 109,
+    "hanzi": "喂",
+    "pinyin": "wèi",
+    "yingyu": "hello (on the phone)"
+  },
+  { "id": 110, "hanzi": "我", "pinyin": "wǒ", "yingyu": "I; me" },
+  { "id": 111, "hanzi": "我们", "pinyin": "wǒmen", "yingyu": "we; us" },
+  { "id": 112, "hanzi": "五", "pinyin": "wǔ", "yingyu": "five" },
+  { "id": 113, "hanzi": "喜欢", "pinyin": "xǐhuan", "yingyu": "to like" },
+  { "id": 114, "hanzi": "下", "pinyin": "xià", "yingyu": "fall; below" },
+  { "id": 115, "hanzi": "下午", "pinyin": "xiàwǔ", "yingyu": "afternoon" },
+  { "id": 116, "hanzi": "下雨", "pinyin": "xiàyǔ", "yingyu": "to rain" },
+  { "id": 117, "hanzi": "先生", "pinyin": "xiānsheng", "yingyu": "Mr.; Sir" },
+  { "id": 118, "hanzi": "现在", "pinyin": "xiànzài", "yingyu": "now" },
+  {
+    "id": 119,
+    "hanzi": "想",
+    "pinyin": "xiǎng",
+    "yingyu": "think; believe; suppose; would like to"
+  },
+  { "id": 120, "hanzi": "小", "pinyin": "xiǎo", "yingyu": "small; young" },
+  {
+    "id": 121,
+    "hanzi": "小姐",
+    "pinyin": "xiǎojie",
+    "yingyu": "young lady; miss; Ms."
+  },
+  { "id": 122, "hanzi": "些", "pinyin": "xiē", "yingyu": "some; few; several" },
+  {
+    "id": 123,
+    "hanzi": "写",
+    "pinyin": "xiě",
+    "yingyu": "to write; to compose"
+  },
+  { "id": 124, "hanzi": "谢谢", "pinyin": "xièxie", "yingyu": "thank you" },
+  { "id": 125, "hanzi": "星期", "pinyin": "xīngqī", "yingyu": "week" },
+  { "id": 126, "hanzi": "学生", "pinyin": "xuésheng", "yingyu": "student" },
+  {
+    "id": 127,
+    "hanzi": "学习",
+    "pinyin": "xuéxí",
+    "yingyu": "learn; to study"
+  },
+  { "id": 128, "hanzi": "学校", "pinyin": "xuéxiào", "yingyu": "school" },
+  { "id": 129, "hanzi": "一", "pinyin": "yī", "yingyu": "one; once; a" },
+  { "id": 130, "hanzi": "衣服", "pinyin": "yīfu", "yingyu": "clothes" },
+  { "id": 131, "hanzi": "医生", "pinyin": "yīshēng", "yingyu": "doctor" },
+  { "id": 132, "hanzi": "医院", "pinyin": "yīyuàn", "yingyu": "hospital" },
+  { "id": 133, "hanzi": "椅子", "pinyin": "yǐzi", "yingyu": "chair" },
+  {
+    "id": 134,
+    "hanzi": "一点儿",
+    "pinyin": "yìdiǎnr",
+    "yingyu": "a bit; a few"
+  },
+  { "id": 135, "hanzi": "有", "pinyin": "yǒu", "yingyu": "have" },
+  { "id": 136, "hanzi": "月", "pinyin": "yuè", "yingyu": "moon; month" },
+  {
+    "id": 137,
+    "hanzi": "在",
+    "pinyin": "zài",
+    "yingyu": "at; on; in; indicates an action in progress"
+  },
+  {
+    "id": 138,
+    "hanzi": "再见",
+    "pinyin": "zàijiàn",
+    "yingyu": "goodbye; see you later"
+  },
+  { "id": 139, "hanzi": "怎么", "pinyin": "zěnme", "yingyu": "how?" },
+  {
+    "id": 140,
+    "hanzi": "怎么样",
+    "pinyin": "zěnmeyàng",
+    "yingyu": "how about?; how is/was it?"
+  },
+  { "id": 141, "hanzi": "这", "pinyin": "zhè", "yingyu": "this" },
+  { "id": 142, "hanzi": "中国", "pinyin": "Zhōngguó", "yingyu": "China" },
+  { "id": 143, "hanzi": "中午", "pinyin": "zhōngwǔ", "yingyu": "noon; midday" },
+  {
+    "id": 144,
+    "hanzi": "住",
+    "pinyin": "zhù",
+    "yingyu": "to live; reside; to stop"
+  },
+  { "id": 145, "hanzi": "桌子", "pinyin": "zhuōzi", "yingyu": "table; desk" },
+  { "id": 146, "hanzi": "字", "pinyin": "zì", "yingyu": "letter; character" },
+  { "id": 147, "hanzi": "昨天", "pinyin": "zuótiān", "yingyu": "yesterday" },
+  { "id": 149, "hanzi": "坐", "pinyin": "zuò", "yingyu": "sit" },
+  { "id": 148, "hanzi": "做", "pinyin": "zuò", "yingyu": "do; make" }
+]
