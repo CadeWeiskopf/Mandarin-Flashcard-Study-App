@@ -16,7 +16,11 @@ export default function FlashcardDeck(props: { flashcards: Flashcard[] }) {
   useEffect(() => {
     const scrambledCardOrder = props.flashcards.sort(() => Math.random() - 0.5);
     setCardOrder(scrambledCardOrder);
+    setCurrentCard(0);
   }, []);
+  if (currentCard < 0) {
+    return <></>;
+  }
   return (
     <>
       <div className="flashcarddeck">
@@ -25,7 +29,9 @@ export default function FlashcardDeck(props: { flashcards: Flashcard[] }) {
             type="button"
             onClick={() => {
               const newCard = currentCard - 1;
-              setCurrentCard(newCard >= 0 ? newCard : props.flashcards.length);
+              setCurrentCard(
+                newCard >= 0 ? newCard : props.flashcards.length - 1
+              );
               setCardSide(0);
             }}
           >
@@ -35,30 +41,19 @@ export default function FlashcardDeck(props: { flashcards: Flashcard[] }) {
             type="button"
             onClick={() => {
               const newCard = currentCard + 1;
-              setCurrentCard(newCard <= props.flashcards.length ? newCard : 0);
+              setCurrentCard(newCard < props.flashcards.length ? newCard : 0);
               setCardSide(0);
             }}
           >
             +
           </button>
         </div>
-        {currentCard < 0 ? (
-          <button
-            type="button"
-            onClick={() => {
-              setNewRandomCard(setCurrentCard, props.flashcards);
-            }}
-          >
-            start
-          </button>
-        ) : (
-          <FlashcardCard
-            cardSide={cardSide}
-            setCardSide={setCardSide}
-            currentCard={currentCard}
-            flashcards={props.flashcards}
-          />
-        )}
+        <FlashcardCard
+          cardSide={cardSide}
+          setCardSide={setCardSide}
+          currentCard={currentCard}
+          flashcards={props.flashcards}
+        />
       </div>
     </>
   );
