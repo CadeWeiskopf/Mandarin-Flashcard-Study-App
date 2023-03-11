@@ -48,6 +48,9 @@
     #0074d9 12px,
     #0074d9 13px
   );
+  display: flex;
+  flex-direction: column;
+  height: 200px;
 }
 .flashcard-flip-button {
   background: transparent;
