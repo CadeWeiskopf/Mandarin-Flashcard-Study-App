@@ -33,8 +33,43 @@
 }
 
 .flashcard {
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  border: 2px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  position: relative;
+  perspective: 1000px;
   background-color: #fff;
   color: #000;
+}
+
+.flashcard div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.flashcard button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
 }
 
 .hanzi {

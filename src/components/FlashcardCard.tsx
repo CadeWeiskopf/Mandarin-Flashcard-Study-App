@@ -10,10 +10,10 @@ export default function FlashcardCard(props: {
   const cardSideMap = (flashcard: Flashcard) => {
     if (props.cardSide === 0) {
       return (
-        <>
+        <div style={{ display: "flex", flexDirection: "column" }}>
           <h2 className="hanzi">{flashcard.hanzi}</h2>
           <h3>{flashcard.pinyin}</h3>
-        </>
+        </div>
       );
     } else if (props.cardSide === 1) {
       return (
