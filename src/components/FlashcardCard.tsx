@@ -31,6 +31,7 @@ export default function FlashcardCard(props: {
         <div>{cardSideMap(props.flashcards[props.currentCard])}</div>
         <button
           className="flashcard-flip-button"
+          type="button"
           onClick={() => {
             props.setCardSide(props.cardSide ? 0 : 1);
           }}
