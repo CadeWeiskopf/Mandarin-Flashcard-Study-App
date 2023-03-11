@@ -30,6 +30,7 @@ export default function FlashcardDeck(props: { flashcards: Flashcard[] }) {
           currentCard={currentCard}
           flashcards={props.flashcards}
         />
+        <br />
         <div>
           <button
             type="button"

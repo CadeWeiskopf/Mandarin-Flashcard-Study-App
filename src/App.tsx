@@ -17,7 +17,6 @@ function App() {
         <h3>Mandarin Flashcards</h3>
         <Dropdown
           onSelect={(e) => {
-            console.log(e);
             if (e === "set1") {
               setSelectedSet(set1);
               setSelectedSetName(e);
