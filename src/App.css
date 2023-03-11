@@ -51,6 +51,7 @@
   display: flex;
   flex-direction: column;
   height: 200px;
+  overflow: auto;
 }
 .flashcard-flip-button {
   background: transparent;
@@ -64,7 +65,6 @@
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
-  padding: 1rem;
   box-sizing: border-box;
 }
 
