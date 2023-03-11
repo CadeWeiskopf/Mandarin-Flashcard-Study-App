@@ -72,6 +72,21 @@
   cursor: pointer;
 }
 
+.dropdownmenu-options {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+.dropdownmenu {
+  width: 100%;
+  max-width: 250px;
+  color: #fff !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+.dropdownmenu * {
+  color: white !important;
+  text-align: center !important;
+}
+
 .hanzi {
   font-size: calc(2rem + 2vw);
 }

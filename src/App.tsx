@@ -15,10 +15,7 @@ function App() {
     <div className="App">
       <header>
         <h3>Mandarin Flashcards</h3>
-        <div className="small-text">Test your knowledge.</div>
-        <br />
         <Dropdown
-          className="dropdown-container"
           onSelect={(e) => {
             console.log(e);
             if (e === "set1") {
@@ -27,16 +24,23 @@ function App() {
             }
           }}
         >
-          <Dropdown.Toggle>
+          <Dropdown.Toggle className="dropdownmenu">
             {selectedSetName || "Select flashcards"}
           </Dropdown.Toggle>
-          <Dropdown.Menu>
-            <Dropdown.Item eventKey="set1">set1</Dropdown.Item>
+          <Dropdown.Menu className="dropdownmenu">
+            <Dropdown.Item
+              eventKey="set1"
+              className="dropdownmenu-options"
+            >
+              set1
+            </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </header>
       <main>{selectedSet && <FlashcardDeck flashcards={selectedSet} />}</main>
-      <footer>footer</footer>
+      <footer>
+        <small className="small-text">Created by Cade Weiskopf</small>
+      </footer>
     </div>
   );
 }
