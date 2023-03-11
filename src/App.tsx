@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h3>Mandarin Flashcards</h3>
+        <h3 className="app-name-header">Mandarin Flashcards</h3>
         <Dropdown
           onSelect={(e) => {
             if (e === "set1") {

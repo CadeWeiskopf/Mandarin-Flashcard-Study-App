@@ -90,3 +90,7 @@
 .hanzi {
   font-size: calc(2rem + 2vw);
 }
+
+.app-name-header {
+  margin-top: 0.5rem;
+}
