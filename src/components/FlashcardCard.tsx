@@ -11,14 +11,14 @@ export default function FlashcardCard(props: {
     if (props.cardSide === 0) {
       return (
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <h2 className="hanzi">{flashcard.hanzi}</h2>
-          <h3>{flashcard.pinyin}</h3>
+          <h2 className="hanzi flashcard-highlight">{flashcard.hanzi}</h2>
+          <h3 className="flashcard-highlight">{flashcard.pinyin}</h3>
         </div>
       );
     } else if (props.cardSide === 1) {
       return (
         <>
-          <h2>{flashcard.yingyu}</h2>
+          <h2 className="flashcard-highlight">{flashcard.yingyu}</h2>
         </>
       );
     } else {
@@ -30,6 +30,7 @@ export default function FlashcardCard(props: {
       <div className="flashcard">
         <div>{cardSideMap(props.flashcards[props.currentCard])}</div>
         <button
+          className="flashcard-flip-button"
           onClick={() => {
             props.setCardSide(props.cardSide ? 0 : 1);
           }}
