@@ -24,6 +24,12 @@ export default function FlashcardDeck(props: { flashcards: Flashcard[] }) {
   return (
     <>
       <div className="flashcarddeck">
+        <FlashcardCard
+          cardSide={cardSide}
+          setCardSide={setCardSide}
+          currentCard={currentCard}
+          flashcards={props.flashcards}
+        />
         <div>
           <button
             type="button"
@@ -35,7 +41,7 @@ export default function FlashcardDeck(props: { flashcards: Flashcard[] }) {
               setCardSide(0);
             }}
           >
-            -
+            {"<"}
           </button>
           <button
             type="button"
@@ -45,15 +51,9 @@ export default function FlashcardDeck(props: { flashcards: Flashcard[] }) {
               setCardSide(0);
             }}
           >
-            +
+            {">"}
           </button>
         </div>
-        <FlashcardCard
-          cardSide={cardSide}
-          setCardSide={setCardSide}
-          currentCard={currentCard}
-          flashcards={props.flashcards}
-        />
       </div>
     </>
   );
